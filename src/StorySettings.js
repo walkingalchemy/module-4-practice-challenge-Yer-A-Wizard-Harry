@@ -17,8 +17,8 @@ const StorySettings = props => {
         </select>
         <input type="submit" />
       </form>
-      <form>
-        <div>
+      <form onClick={props.handleFilter}>
+        <div >
           <h3>Filter By House</h3>
         </div>
         <input name="selectedHouse" type="radio" value="All" />All
